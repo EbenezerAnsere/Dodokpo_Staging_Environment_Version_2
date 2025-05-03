@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["es6", "dom"],
+        "types": ["cypress"],
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "@PageObject": ["PageObject/*"]
+        }
+        
+    },
+    "include": ["**/*.js"],
+    "exclude": ["node_modules"]
+}

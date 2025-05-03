@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Upload true or false question",
+    "line": 1,
+    "id": "upload-true-or-false-question",
+    "tags": [],
+    "uri": "bulk_question_upload.feature",
+    "elements": [
+      {
+        "id": "upload-true-or-false-question;should-be-able-to-delete-true-or-false-question",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Should be able to delete true or false question",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the login form",
+            "result": {
+              "status": "passed",
+              "duration": 17273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter credentials include an email and a password",
+            "result": {
+              "status": "passed",
+              "duration": 4170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be logged in to the application",
+            "result": {
+              "status": "passed",
+              "duration": 7031000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
