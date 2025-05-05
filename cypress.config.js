@@ -17,7 +17,10 @@ module.exports = defineConfig({
 		viewportHeight: 900,
 		viewportWidth: 1300,
 		chromeWebSecurity: true,
-    baseUrl: "https://amap-v2.amalitech-dev.net/login"
+    
+    env: {
+      url: "https://amap-staging.amalitech-dev.net"
+    }
 
   },
 });

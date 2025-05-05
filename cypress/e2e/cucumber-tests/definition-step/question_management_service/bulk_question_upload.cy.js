@@ -10,7 +10,7 @@ import landingpage from '../../../../page_object_model/landingpage'
 
 
 Given("I open the login form", ()=>{
-    cy.visit(Cypress.env('baseUrl'))
+    cy.visit(Cypress.env('url'))
 })
 
 When("I enter credentials include an email and a password", ()=>{
