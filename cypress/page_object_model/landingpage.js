@@ -11,7 +11,6 @@ class LandingPage{
         this.element.email().type(email)
         this.element.password().type(password)
         this.element.signin().click()
-        
     }
 
 
