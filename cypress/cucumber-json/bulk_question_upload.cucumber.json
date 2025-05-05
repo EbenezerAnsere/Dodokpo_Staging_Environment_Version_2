@@ -19,30 +19,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I open the login form",
+            "name": "User opens the login form",
             "result": {
               "status": "passed",
-              "duration": 4269000000
+              "duration": 5100000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I enter credentials include an email and a password",
+            "name": "User enters credentials include an email and a password",
             "result": {
               "status": "passed",
-              "duration": 4030000000
+              "duration": 4477000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I should be logged in to the application",
+            "name": "User should be logged in to the application",
             "result": {
               "status": "passed",
-              "duration": 6882000000
+              "duration": 5906000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Test Management Tab should be provided",
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User should open the bulk question upload",
+            "result": {
+              "status": "passed",
+              "duration": 1334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User edits a question from the list shown in the table",
+            "result": {
+              "status": "passed",
+              "duration": 5990000000
             }
           }
         ]

@@ -20,5 +20,9 @@
     "cucumberJson": {
       "generate": true
     }
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "neat-csv": "^7.0.0"
   }
 }
